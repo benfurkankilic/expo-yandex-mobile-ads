@@ -1,0 +1,56 @@
+{
+  "name": "@furkankilic/expo-yandex-mobile-ads",
+  "version": "0.1.0",
+  "description": "Expo config plugin for Yandex Mobile Ads SDK 8 — auto-configures Info.plist, AndroidManifest, and SKAdNetwork IDs for React Native + Expo apps.",
+  "main": "app.plugin.js",
+  "scripts": {
+    "build": "tsc -p plugin",
+    "clean": "rm -rf plugin/build",
+    "lint": "eslint plugin/src --ext .ts,.tsx",
+    "test": "jest",
+    "prepare": "npm run clean && npm run build",
+    "prepublishOnly": "npm run lint && npm run build"
+  },
+  "files": [
+    "app.plugin.js",
+    "plugin/build",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "expo",
+    "expo-config-plugin",
+    "react-native",
+    "yandex",
+    "yandex-ads",
+    "yandex-mobile-ads",
+    "monetization",
+    "ads",
+    "skadnetwork"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benfurkankilic/expo-yandex-mobile-ads"
+  },
+  "bugs": {
+    "url": "https://github.com/benfurkankilic/expo-yandex-mobile-ads/issues"
+  },
+  "homepage": "https://github.com/benfurkankilic/expo-yandex-mobile-ads#readme",
+  "author": "Furkan Kilic <hi@furkankilic.dev> (https://github.com/benfurkankilic)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "expo": ">=52",
+    "yandex-mobile-ads": ">=8"
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "^11.0.0",
+    "@types/node": "^22.0.0",
+    "expo": "^55.0.18",
+    "expo-module-scripts": "^55.0.2",
+    "typescript": "^5.5.0"
+  }
+}

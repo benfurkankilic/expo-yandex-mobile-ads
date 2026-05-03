@@ -1,0 +1,14 @@
+# Hidden dirs
+/.*/
+
+# Dev artifacts
+/*.tgz
+/node_modules
+/example
+/plugin/src
+/plugin/__tests__
+/plugin/tsconfig.json
+
+# Tooling configs not needed at runtime
+/tsconfig.json
+/jest.config.js

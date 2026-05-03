@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-yandex-mobile-ads": ["../src/index"],
+      "expo-yandex-mobile-ads/*": ["../src/*"]
+    }
+  }
+}
