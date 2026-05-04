@@ -1,3 +1,22 @@
+/**
+ * Public options accepted by the plugin in `app.json` `plugins` array.
+ *
+ * Example:
+ * ```jsonc
+ * {
+ *   "plugins": [
+ *     ["@furkankilic/expo-yandex-mobile-ads", {
+ *       "iosAppId": "ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY",
+ *       "androidAppId": "ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY",
+ *       "userTrackingUsageDescription": "Used to deliver relevant ads."
+ *     }]
+ *   ]
+ * }
+ * ```
+ *
+ * All fields are optional. The plugin always injects the bundled SKAdNetwork
+ * IDs into Info.plist; everything else is opt-in via these props.
+ */
 export type YandexMobileAdsPluginProps = {
   /**
    * AdMob app ID for iOS, written into Info.plist as `GADApplicationIdentifier`.
