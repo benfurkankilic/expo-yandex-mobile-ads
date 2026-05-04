@@ -5,7 +5,7 @@
  * ```jsonc
  * {
  *   "plugins": [
- *     ["@furkankilic/expo-yandex-mobile-ads", {
+ *     ["@benfurkankilic/expo-yandex-mobile-ads", {
  *       "iosAppId": "ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY",
  *       "androidAppId": "ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY",
  *       "userTrackingUsageDescription": "Used to deliver relevant ads."

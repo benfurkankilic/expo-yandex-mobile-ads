@@ -1,4 +1,4 @@
-# CLAUDE.md — `@furkankilic/expo-yandex-mobile-ads`
+# CLAUDE.md — `@benfurkankilic/expo-yandex-mobile-ads`
 
 Project context for Claude Code (and future contributors). Read this before
 making changes — the architecture decisions here are deliberate and reversing
@@ -32,11 +32,11 @@ Listed in `peerDependencies` so users explicitly install it themselves.
 **Why:** Lets users pin the exact SDK version they want, and avoids version
 drift surprises when we update.
 
-### Scoped npm package (`@furkankilic/...`) instead of unscoped
+### Scoped npm package (`@benfurkankilic/...`) instead of unscoped
 The unscoped name `expo-yandex-mobile-ads` was unpublished from npm in 2024
 and may carry trademark squatting risk (Yandex is a trademark).
 
-**Why:** Scoped under `@furkankilic` we own the namespace cleanly and avoid
+**Why:** Scoped under `@benfurkankilic` we own the namespace cleanly and avoid
 disputes. If Yandex later blesses an unscoped name, migration is a
 release-time decision, not an emergency.
 
@@ -71,7 +71,7 @@ expo-yandex-mobile-ads/
 ├── example/                         # Bundled Expo app for plugin development
 │   ├── app.json                    # Wires the plugin via "../app.plugin.js"
 │   └── package.json                # Local file: dep on the parent package
-├── package.json                    # @furkankilic/expo-yandex-mobile-ads metadata
+├── package.json                    # @benfurkankilic/expo-yandex-mobile-ads metadata
 ├── README.md                       # Public-facing docs (EN + TR)
 ├── CHANGELOG.md
 └── CLAUDE.md                       # This file

@@ -1,5 +1,5 @@
 {
-  "name": "@furkankilic/expo-yandex-mobile-ads",
+  "name": "@benfurkankilic/expo-yandex-mobile-ads",
   "version": "0.1.0",
   "description": "Expo config plugin for Yandex Mobile Ads SDK 8 — auto-configures Info.plist, AndroidManifest, and SKAdNetwork IDs for React Native + Expo apps.",
   "main": "app.plugin.js",

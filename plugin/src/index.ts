@@ -1,5 +1,5 @@
 /**
- * @furkankilic/expo-yandex-mobile-ads — Expo config plugin entry point.
+ * @benfurkankilic/expo-yandex-mobile-ads — Expo config plugin entry point.
  *
  * This file exports the default Expo config plugin. The plugin orchestrates two
  * platform-specific sub-plugins (iOS + Android), each of which only registers
