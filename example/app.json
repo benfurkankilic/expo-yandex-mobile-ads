@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "co.appylo.expoyandexmobileads.example"
+      "bundleIdentifier": "dev.furkankilic.expoyandexmobileads.example"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,10 +23,20 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "co.appylo.expoyandexmobileads.example"
+      "package": "dev.furkankilic.expoyandexmobileads.example"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "../app.plugin.js",
+        {
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511",
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "userTrackingUsageDescription": "This identifier helps us serve relevant ads and measure performance."
+        }
+      ]
+    ]
   }
 }
