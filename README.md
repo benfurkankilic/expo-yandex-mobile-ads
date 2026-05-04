@@ -11,7 +11,7 @@
 
 ## Demo
 
-https://github.com/benfurkankilic/expo-yandex-mobile-ads/releases/download/media-assets/expo-yandex-mobile-ads.mp4
+https://github.com/user-attachments/assets/bcbe4391-e0a6-4d73-8ec1-c70d2e0fa799
 
 ## Why this exists
 
