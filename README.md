@@ -11,7 +11,7 @@
 
 ## Demo
 
-https://github.com/user-attachments/assets/bcbe4391-e0a6-4d73-8ec1-c70d2e0fa799
+https://github.com/user-attachments/assets/d9a9960e-52f1-4baa-9c13-b5c6fe6903f1
 
 ## Why this exists
 
