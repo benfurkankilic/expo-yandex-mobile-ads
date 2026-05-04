@@ -1,0 +1,8 @@
+# Code owners — automatically requested for review on every PR.
+#
+# Branch protection on `main` requires CODEOWNERS approval before merge.
+# Only the listed owner(s) can approve PRs that satisfy this requirement.
+# Without an owner approval, no PR can land on main.
+
+# Catch-all: every file change requires owner review.
+*       @benfurkankilic

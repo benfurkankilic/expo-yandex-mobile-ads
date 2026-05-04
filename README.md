@@ -161,7 +161,9 @@ See [`CLAUDE.md`](./CLAUDE.md) for the full architecture write-up.
 
 ## Contributing
 
-PRs welcome. Read [`CLAUDE.md`](./CLAUDE.md) before making changes — the architecture decisions there are deliberate.
+PRs welcome. Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the development workflow + style guide, and [`CLAUDE.md`](./CLAUDE.md) for the architecture decisions (which are deliberate).
+
+All PRs require explicit approval from [@benfurkankilic](https://github.com/benfurkankilic) before merge — branch protection is enforced on `main`.
 
 ```bash
 git clone https://github.com/benfurkankilic/expo-yandex-mobile-ads.git
