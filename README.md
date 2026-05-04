@@ -9,6 +9,10 @@
 
 ---
 
+## Demo
+
+https://github.com/benfurkankilic/expo-yandex-mobile-ads/releases/download/media-assets/expo-yandex-mobile-ads.mp4
+
 ## Why this exists
 
 Yandex Mobile Ads SDK 8 ships an [official React Native plugin](https://www.npmjs.com/package/yandex-mobile-ads) — but if you're on **Expo** (Managed or Bare), integrating it is painful:
